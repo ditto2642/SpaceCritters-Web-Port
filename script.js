@@ -9,7 +9,6 @@ var silvMat = new THREE.MeshBasicMaterial({color:0xC0C0C0, wireframe:true});
 var cubeMesh = new THREE.Mesh(cubeGeo,silvMat);
 scene.add(cubeMesh);
 
-camera.position.z = 5;
 camera.position.y = 5;
 camera.rotation.x = -Math.PI/4;
 document.addEventListener('keyup', keyUp, false);
